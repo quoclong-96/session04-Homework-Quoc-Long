@@ -1,0 +1,9 @@
+.cover-img {
+  width: 55%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.title {
+  width: 55%;
+}

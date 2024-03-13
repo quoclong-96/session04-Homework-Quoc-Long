@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.notify {
+  border: 2px solid grey;
+}
+
+.notify-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid grey;
+}
+
+.notify-header > span {
+  margin: 10px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.notify-body {
+  padding: 10px 10px;
+  border-bottom: 1px solid grey;
+}
+
+.notify-footer button {
+  background-color: #1e90ff;
+  padding: 10px 5px;
+  border-radius: 5px;
+  color: #f8f8ff;
+  margin: 12px 12px;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+
+.notify-footer {
+  display: flex;
+  justify-content: flex-end;
+}

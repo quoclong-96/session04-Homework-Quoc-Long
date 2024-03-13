@@ -1,0 +1,9 @@
+body {
+  background-color: #faf0e6;
+  text-align: justify;
+}
+
+div span {
+  color: #1e90ff;
+  text-decoration: underline;
+}

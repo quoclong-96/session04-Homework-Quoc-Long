@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập số 10</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./B10.css" />
+  </head>
+  <body>
+    <div class="bill-address">
+      <div class="inform-bill">Billing address</div>
+      <div class="name">
+        <div>
+          <label for="fname">First name</label><br />
+          <input type="text" id="fname" name="fname" class="first-name" />
+        </div>
+        <div>
+          <label for="fname">Last name</label><br />
+          <input type="text" id="lname" name="lname" class="last-name" />
+        </div>
+      </div>
+      <div>
+        <div><label for="usename">Username</label></div>
+        <table>
+          <tr>
+            <td>@</td>
+            <td>
+              <input
+                type="text"
+                id="usename"
+                placeholder="usename"
+                class="use-name"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="email">
+        <label for="mail">Email (Optional)</label><br />
+        <input
+          type="mail"
+          id="mail"
+          placeholder="you@example.com"
+          class="e-mail"
+        />
+      </div>
+      <div>
+        <label for="address">Address</label><br />
+        <input
+          type="text"
+          id="address"
+          placeholder="1234 Main St"
+          class="a-ddress"
+        />
+      </div>
+      <div>
+        <label for="address2">Address 2 (Optional)</label><br />
+        <input
+          type="text"
+          id="address2"
+          placeholder="Apartment or suite"
+          class="a-ddress2"
+        />
+      </div>
+      <div>
+        <div>
+          <label>Country</label><br />
+          <select>
+            <option value="">Choose...</option>
+          </select>
+        </div>
+        <div>
+          <label>State</label><br />
+          <select>
+            <option value="" class="state">Choose...</option>
+          </select>
+        </div>
+        <div>
+          <label>Zip</label><br />
+          <input type="text" class="zip" />
+        </div>
+      </div>
+    </div>
+    <div>
+        <div>
+          <input id="check1" type="checkbox" />
+          <label for="check1">Shipping address is the same as my billing address</label>
+        </div>
+        <div>
+          <input id="check2" type="checkbox" />
+          <label for="check2">Save this information for next time</label>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label class="pay">Payment</label>
+          <div>
+            <div>
+              <input id="" type="radio" checked>
+              <label for=""> Credit card</label>
+            </div>
+            <div>
+              <input id="" type="radio">
+              <label for="">Debit card</label>
+            </div>
+            <div>
+              <input id="" type="radio">
+              <label for="">PayPal</label>
+            </div>
+          </div>
+        </div>
+        <div>
+            <div>
+              <label for="namecarf">Name on card</label><br/>
+              <input  type="text" id="namecarf" />
+            </div>
+            <div>
+              <label for="numcard">Credit card number</label><br/>
+              <input  type="text" id="numcard" />
+            </div>
+        </div>
+        <span>Full name as displayed on card</span>
+        <div>
+          <div>
+            <label for="exp">Expiration</label><br/>
+            <input  type="text" id="exp" />
+          </div>
+          <div>
+            <label for="cvv">CVV</label><br/>
+            <input  type="text" id="cvv" />
+          </div>
+        </div>
+      </div>
+      <div class="footer-btn">
+        <button>Continue to checkou</button>
+      </div>
+    </div>
+  </body>
+</html>

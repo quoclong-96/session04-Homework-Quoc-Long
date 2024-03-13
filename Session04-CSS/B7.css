@@ -1,0 +1,32 @@
+.notification {
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(234, 234, 227);
+  border: 1px solid grey;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: rgb(234, 234, 227);
+  border: 1px solid grey;
+}
+
+.content {
+  background-color: #fff;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding: 10px 0 20px;
+}
+
+.content button {
+  background-color: rgb(162, 162, 241);
+  cursor: pointer;
+  border-radius: 4cqb;
+}
+
+button:hover {
+  background-color: #b85656;
+  font-size: 20px;
+}

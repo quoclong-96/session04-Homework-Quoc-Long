@@ -1,0 +1,27 @@
+.content-1 p:nth-child(odd) {
+  border: 3px solid green;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 10px;
+}
+
+.text-color {
+  color: #cd5c5c;
+}
+
+.content-2 {
+  background-color: #dcdcdc;
+}
+
+pre {
+  background-color: #fff;
+  border-left: 3px solid green;
+  padding: 10px 0;
+  margin: 0 10px;
+}
+
+button {
+  margin: 10px 10px 10px;
+  background-color: rgb(85, 193, 85);
+  border-radius: 5px;
+}
